@@ -1,6 +1,6 @@
 #*****************************************************
 #AUTHOR UTPAL SARKAR                                 *
-#I am using Reinforcement Learning AI/ML technique   *
+#Using Reinforcement Learning AI/ML technique   *
 #basic code lot of enhancement needed                *
 #USE CODE with own risk                              *
 #This is for educational purpose                     *
@@ -160,6 +160,7 @@ if __name__ == '__main__':
     parser.add_argument('--csv_path', type=str, help='Path to the CSV file containing your data')
     parser.add_argument('--price', type=float, help='Specify the price')
     parser.add_argument('--train', type=str, help='Train option')
+    parser.add_argument('--help', type=str, help='Install required packages numpy , pandas, argparse')
 
     args = parser.parse_args()
     main(args)
